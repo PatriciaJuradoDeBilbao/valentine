@@ -12,14 +12,13 @@
 
 .bg-img {
     width: 100%;
-    padding-top: 447px;
 }
 
 .outer {
     display: flex;
     margin-left:50px;
     position: relative;
-    top: 400px;
+    top: 50px;
     z-index: 1;
   } 
   
