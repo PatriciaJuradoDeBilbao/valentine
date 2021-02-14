@@ -1,0 +1,70 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mali', cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f0d7ee;
+    height: 100%;
+}
+
+.bg-img {
+    width: 100%;
+    padding-top: 447px;
+}
+
+.outer {
+    display: flex;
+    margin-left:50px;
+    position: relative;
+    top: 400px;
+    z-index: 1;
+  } 
+  
+  .rotating-text {
+    font-size: 1.2em;
+  }
+
+  .inner {
+    font-weight: 500;
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.3em;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .inner span {
+    animation: animate 10s ease infinite;
+    position: relative;
+  }
+  
+  @keyframes animate {
+    0%, 100%{
+      top:0;
+    }
+    20%{
+      top:0px;
+    }  
+    25%{
+      top:-30px;
+    }
+    45%{
+      top:-30px;
+    }
+    50%{
+      top:-60px;
+    }
+    70%{
+      top:-60px;
+    }
+    75%{
+      top:-90px;
+    }
+    95%{
+      top:-90px;
+    }
+  }
